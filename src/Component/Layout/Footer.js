@@ -6,7 +6,7 @@ class Footer extends Component {
     render() {
         return (
             <Typography className='footer-text' >
-                © 2023 ACME Privacy
+                © 2023  land sale Privacy 
             </Typography>
 
 
