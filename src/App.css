@@ -1,0 +1,75 @@
+
+.Layout{
+  width: 100%;
+height: 775px;
+background-repeat: no-repeat;
+background-size: cover;
+background-Position: center;
+/* background-image: url("../../lab/src/Assert/medium-shot-scientist-working-with-microscope\ 1.png") */
+background-image: url("../src/Assert/8552Indraprastha\ 10.jpg")
+
+}
+.Background{
+  position:absolute;
+  top:100px;  
+  left: 600px;
+
+  background-color: white;
+  width: 350px;
+  height:450px;
+  border-radius: 30px;
+  box-shadow: 10px;
+  padding: 20px;
+
+}
+.centerhead{
+text-align: center;
+color: rgb(80, 87, 54);
+}
+.subhead{
+  color: rgb(161, 184, 81);
+
+}
+
+.Space{
+  display:flex;
+  justify-content: space-between;
+}
+.Logo{
+  color: rgb(214,231,245);
+  text-decoration: double;
+}
+.Button{
+  background-color: rgb(36,200,210)!important;
+  color:white!important;
+}
+
+.footer-text{
+position: absolute;
+top:690px;
+left:500px;
+color: #9b9b9b !important;
+font-family: 'AvenirRegular' !important;
+text-align: center;
+}
+.Logo{
+  Padding:20px;
+}
+.search {
+  display: flex;
+  align-items: center;
+  padding: 2px 4px;
+  width: 250px;
+  padding-left: 15px;
+  
+}
+.topbar {
+  display: flex;
+}
+.header-admin .header button {
+  position: relative;
+  top: 4px;
+}
+.contentcolor{
+  background-color: #9b9b9b;
+}
