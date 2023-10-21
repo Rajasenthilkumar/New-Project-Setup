@@ -221,7 +221,7 @@ export default function PrimarySearchAppBar() {
             </IconButton>
             <Box sx={{ ml: 1, display: 'flex', alignItems: 'center', textAlign: 'center' }}>
               <Typography variant="h6" noWrap component="div">
-                Johnson
+                Raja senthilkumar
               </Typography >
               <ArrowDropDownIcon />
             </Box>
