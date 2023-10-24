@@ -9,7 +9,7 @@ import PublicRoute from './PublicRoute'
 import PrivateRoute from './PrivateRoute'
 // import Dashboard from '../FunctionLayout/Dashboard'
 import Login from '../Authmodule/Login'
-
+import SignUp from '../Authmodule/Signup'
 
 // import Userdata from '../Page/Dashboard/Userdata'
  /* <Route element={<PrivateRoute />}>
@@ -23,6 +23,8 @@ function Path() {
         <Routes>
           <Route element={<PublicRoute />}>
             <Route path="/" element={<Login />} />
+            <Route path="/Signup" element={<SignUp />} />
+
           </Route>
           <Route path="/Header" element={<Header />} />
           <Route path="/sidebar" element={<Sidebar />} />
